@@ -1,5 +1,15 @@
 import java.util.*
 
+fun main() {
+    println("Hello world!")
+    val nums = intArrayOf(-1, 0, 1, 2, -1, -4)
+    val nums1 = intArrayOf(0, 0, 0, 0)
+    if (nums.size < 3) {
+        println("not possible")
+    } else {
+        println(threeSumThreePointer(nums))
+    }
+}
 
     fun threeSum(nums: IntArray): List<List<Int>>? {
         val numLength = nums.size

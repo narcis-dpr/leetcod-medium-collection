@@ -1,6 +1,6 @@
 fun main() {
-    val sampleOne = intArrayOf(3, 2, 4)
-    val sum = 6
+    val sampleOne = intArrayOf(1,1,2,23,4,9,13,6,9)
+    val sum = 10
     println(twoSum(sampleOne, sum).toString())
     twoSumLeetCodeHashMap(sampleOne, sum).forEach {
         println(it)
@@ -31,7 +31,7 @@ fun twoSumForSortedArray(nums: IntArray, desiredSum: Int): List<Pair<Int, Int>> 
     return results
 }
 
-fun twoSum(nums: IntArray, desiredSum: Int): List<Pair<Int, Int>> { // rigged ! doest work when it finds the same index for you as i !
+fun twoSum(nums: IntArray, desiredSum: Int): List<Pair<Int, Int>> {
     val results: MutableList<Pair<Int, Int>> = mutableListOf()
 
     val numSize = nums.size

@@ -1,4 +1,5 @@
-import kotlin.math.floor
+package modified
+
 import kotlin.math.max
 
 fun main() {

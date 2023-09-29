@@ -1,3 +1,5 @@
+package modified
+
 fun main() {
     val text = "This is a sample text to split into words"
     println(replaceInText(text, '@'))

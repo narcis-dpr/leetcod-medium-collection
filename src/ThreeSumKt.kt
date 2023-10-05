@@ -29,7 +29,7 @@ fun main() {
     }
 
 
-fun threeSumHashSet(nums: IntArray): List<List<Int>>? {
+fun threeSumHashSet(nums: IntArray): List<List<Int>> {
     val numLength = nums.size
     val result: MutableSet<List<Int>> = HashSet()
     for (i in 0 until numLength) {
@@ -47,7 +47,7 @@ fun threeSumHashSet(nums: IntArray): List<List<Int>>? {
     return ArrayList(result)
 }
 
-fun threeSumThreePointer(nums: IntArray): List<List<Int>>? {
+fun threeSumThreePointer(nums: IntArray): List<List<Int>> {
     val numLength = nums.size
     val result: MutableList<List<Int>> = ArrayList()
     Arrays.sort(nums)

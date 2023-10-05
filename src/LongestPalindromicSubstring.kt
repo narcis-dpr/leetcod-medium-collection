@@ -60,7 +60,9 @@ fun longestPalindrome(s: String?): Int {
 private fun expandAroundCenter(s: String, left: Int, right: Int): Int {
     var leftIndex = left
     var rightIndex = right
-    while (leftIndex >= 0 && rightIndex < s.length && s[leftIndex] == s[rightIndex]) {
+    while (leftIndex >= 0 &&
+            rightIndex < s.length &&
+            s[leftIndex] == s[rightIndex]) {
         leftIndex--
         rightIndex++
     }

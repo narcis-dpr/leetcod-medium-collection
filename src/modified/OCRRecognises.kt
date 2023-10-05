@@ -1,6 +1,6 @@
 package modified
 
-private fun canBeEqual(s1: String, s2: String): Boolean {
+fun canBeEqual(s1: String, s2: String): Boolean {
     var i = 0
     var j = 0
     while (i < s1.length && j < s2.length) {

@@ -20,8 +20,6 @@ private fun twoSum(inputNumbers: IntArray, desiredSum: Int): List<Pair<Int, Int>
     }
     return result.toList()
 }
-
-
 /// without hashmap
 fun twoSumSlicedArray(nums: IntArray, desiredSum: Int): List<Pair<Int, Int>> {
     val results: MutableList<Pair<Int, Int>> = mutableListOf()

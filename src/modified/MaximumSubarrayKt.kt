@@ -75,6 +75,7 @@ private fun maxCrossSub(nums: IntArray, low: Int, mid: Int, high: Int): Int {
 
 private fun maximumSubArrayKadane(nums: IntArray): Int {
     var optimumSum = 0
+    // Int.MIN_VALUE
     var totalSum = 0
     return if (nums.size == 1) {
         nums[0]

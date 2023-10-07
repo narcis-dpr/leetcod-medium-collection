@@ -19,8 +19,8 @@ fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         cnt = temp/10
         cur.next = ListNode(temp%10)
         cur = cur.next!!
-        if (p != null) p = p?.next
-        if (q != null) q = q?.next
+        if (p != null) p = p.next
+        if (q != null) q = q.next
     }
     if (cnt > 0) {
         cur.next = ListNode(cnt)

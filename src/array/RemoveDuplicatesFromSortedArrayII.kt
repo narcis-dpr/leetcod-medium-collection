@@ -2,7 +2,7 @@ package array
 
 fun main() {
     val inputOne = intArrayOf(1, 1, 1, 2, 2, 3)
-    println(removeDuplicatesTwoHashMap(inputOne))
+    println(removeDuplicatesLeetCode1(inputOne))
 }
 
 fun removeDuplicatesTwoHashMap(nums: IntArray): Int {

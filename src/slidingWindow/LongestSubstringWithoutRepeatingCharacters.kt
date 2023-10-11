@@ -1,3 +1,5 @@
+package slidingWindow
+
 fun main() {
     val input1 = "abcabcbb"
     val input2 = "bbbbb"
@@ -6,7 +8,7 @@ fun main() {
     val input5 = "dvdf"
     val input6 = "evdabcerd"
     println(lengthOfLongestSubstringWithSet(input2))
-    println(lengthOfLongestSubstring(input5))
+    println(lengthOfLongestSubstring(input1))
 }
 
 private fun lengthOfLongestSubstring(str: String): Int {

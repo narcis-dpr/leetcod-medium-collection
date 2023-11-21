@@ -5,7 +5,7 @@ fun main() {
     val inputTwo = intArrayOf(7, 6, 4, 3, 1)
     val inputThree = intArrayOf(2,4,1)
     val inputFour = intArrayOf()
-    println(maxProfit(inputThree))
+    println(maxProfit(inputOne))
 }
 
 fun maxProfitBrutForce(prices: IntArray): Int {

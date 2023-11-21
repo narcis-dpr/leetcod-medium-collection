@@ -5,7 +5,7 @@ fun main() {
     val inputTwo = intArrayOf(1, 2, 3, 4, 5)
     val inputThree = intArrayOf(7, 6, 4, 3, 1,0,1,2,12)
     val inputFour = intArrayOf(2, 2, 5)
-    println(maxProfitTwoLeetCode(inputThree))
+    println(maxProfitTwo(inputThree))
 }
 
 fun maxProfitTwo(prices: IntArray): Int {

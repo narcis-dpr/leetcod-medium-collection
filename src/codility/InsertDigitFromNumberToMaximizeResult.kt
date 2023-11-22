@@ -13,7 +13,7 @@ fun main() {
     val digitFive = 3
     val numberSix = "28824579515"
     val digitSix = 8
-    println(maxValue(numberSix, digitSix))
+    println(maxValue("-136576", 5))
 }
 
 fun maxValue(n: String, x: Int): String {

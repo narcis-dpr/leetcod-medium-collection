@@ -30,7 +30,8 @@ fun skipNumbers(s: String, start: Int): Int {
 }
 
 fun main() {
-    println(canBeEqual("A3BCD", "A6"))  // should return true
-    println(canBeEqual("A3BCD", "A3BC1"))  // should return true
-    println(canBeEqual("A3BCD", "A2BCD"))  // should return false
+//    println(canBeEqual("A3BCD", "A6"))  // should return true
+//    println(canBeEqual("A3BCD", "A3BC1"))  // should return true
+//    println(canBeEqual("A3BCD", "A2BCD"))  // should return false
+    println(canBeEqual("A2Le", "2pL1"))
 }
